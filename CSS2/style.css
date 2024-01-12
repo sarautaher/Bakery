@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clr {
+    clear :both;
+}
+.home-conter{
+   
+    position: fixed;
+    padding: 30px 15px 0px 15px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.container2{
+width: 90%;
+margin: 0 auto;
+}
+.home-conter img{
+width: 15%;
+float: left;
+padding: 0px 50px 0px 15px ;
+}
+.home-conter ul{
+    float: right;
+    list-style: none;
+}
+.home-conter ul li{
+    display: inline-block;
+    padding: 15px 15px 0px 15px;
+}
+.home-conter ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+    text-align: center ;
+    position: relative;
+    
+}
+.caption{
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%,-50%);
+    text-align: center;
+   
+}
+.caption p{
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    margin: 25px 0px;
+    font-weight:400;
+}
+.caption h1{
+    font-size: 76px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 18px; 
+}
+.caption .btn1 ,.caption .btn2{
+    padding: 18px 30px;
+    font-size: 16px;
+    color:white ;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.caption .btn1{ background-color: #8E7754;
+border: none;}
+.caption .btn2{
+    background-color: transparent;
+    border:white 1px solid;
+}
+.about-info-img{
+    padding-top: 100px;
+    width: 40%;
+    display: inline-block;
+}
+.about-info-img img{
+    width: 100%;
+}
+.about-img-mg{
+    width: 5%;
+    display: inline-block;
+}
+.about-info{
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+}
+.about-info h2{
+    font-size:32px ;
+    font-family:'Alegreya', serif;
+    padding: 100px 0px 25px ;
+}
+.about-info p{
+    font-size: 17px;
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:#686868;
+    padding-bottom:  25px ;
+}
+.about-list li i ,.contact-item-list li i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    padding: 9px;
+}
+.about-list li i {
+color:#8E7754 ;
+}
+.about-list,.contact-item-list {
+    list-style: none;
+}
+.about-list  li ,.contact-item-list li{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color:#686868;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.Our,.Contact{
+    background-color: #F8F8F8;
+}
+.our-item{
+    width: 48%;
+    display: inline-block;
+}
+.py{
+    padding: 50px 0px;
+}
+.our-item-img{
+    display:inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding: 50px 40px;
+}
+.our-item-img img{
+    width: 100%;
+}
+.Our-title{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    margin: 50px 0 25px;
+}
+.our-desc ,.Bakery-item-desc,.contact-item-desc{
+    font-size: 17px;
+    color:#686868;
+    line-height: 31.62px;
+    font-family: 'Alegreya Sans', sans-serif;  
+}
+.mg{
+    margin: 0 3%;
+}
+.Bakery-item{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.Bakery-desc{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    color: #888888;
+    padding: 10px 0px 10px 0px ;
+}
+.Bakery-title{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    margin: 50px 0 25px;
+    text-align: center;
+}
+.Bakery-item img{
+    width: 100%;
+}
+.Bakery-item-title{
+    margin: 10px 0px;
+    font-size:22px;
+    color: #303030;
+    font-family: 'Alegreya', serif;
+}
+.contact-item-list li i{
+    background-color: #8E7754;
+    color: #fff;
+    border: none;
+}
+.contact-item ,.contact-item2{width: 45%;
+display: inline-block;}
+.contact-item-title {
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    padding: 50px 0px 20px;   
+}
+.contact-item-desc{   padding: 10px 0px 10px 0px ;
+    font-size:17px ;
+    /* color:#686868 ; */
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+ .contact-item2 iframe {
+    width:110%;
+    padding: 50px 0px 20px;
+    }
+.About{
+        background-color: #403D38;
+    }
+.about-item{
+    width: 22%;
+    float: left;
+}
+.about-item-title{
+    color: #fff;
+    font-size:18px;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+}
+.about-item-desc{
+    font-size:16px ;
+    margin-bottom: 20px;
+     color:#969696 ; 
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+} 
+.about-list2{
+    list-style: none;
+}
+.about-list2 li{
+    font-size: 16px;
+    margin: 10px;
+    padding:5px ;
+    color:#969696;
+    font-family: 'Alegreya Sans', sans-serif;  
+}
+.about-list2 li a{
+    color: #969696;
+}
+hr{
+    opacity: 10%;
+ }
+.footer{
+    background: #222;
+    text-align: center;
+    padding: 20px;
+}
+.footer-list{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer-list li{
+    display: inline-block;
+}
+.footer-list li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    
+}
+.footer-list li a i{
+    line-height: 50px;
+}
+.footer p{
+    color: #999;
+    font-size: 17px;
+    text-transform: uppercase;
+}
